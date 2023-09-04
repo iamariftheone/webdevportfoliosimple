@@ -19,7 +19,6 @@ body {
   font-weight: 700;
   padding: 18px 35px;
 }
-/* Universal Style End */
 
 /* Nav Styling Start*/
 nav {
@@ -49,14 +48,17 @@ nav a {
   font-weight: 400;
 }
 .header {
-  background: #fff8f3;
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-/* Nav Styling End */
-/* Header Styling Start */
+/* Header Styling */
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .banner-text {
   align-items: center;
@@ -64,4 +66,45 @@ nav a {
 .banner .hero-img {
   width: 500px;
 }
-/* Header Styling End */
+.banner-one {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner-two {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin: 5px 0px 0px 0px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin: 5px 0px 5px 0px;
+}
+.banner-text {
+  max-width: 500px;
+}
+/* Main section style */
+/* About section */
+.about {
+  padding: 130px;
+  margin: 130px 0px;
+  background: #fff8f3;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-details {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
