@@ -120,3 +120,8 @@ main {
 .info-title {
   text-align: center;
 }
+
+/* What I Do Section */
+#what-i-do {
+  padding: 30px 150px;
+}
