@@ -4,7 +4,7 @@
   padding: 0px;
 } */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .main-title-color {
   color: #fd6e0a;
@@ -89,6 +89,11 @@ nav a {
   max-width: 500px;
 }
 /* Main section style */
+main {
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+}
 /* About section */
 .about {
   padding: 130px;
