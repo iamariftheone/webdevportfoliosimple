@@ -98,6 +98,7 @@ main {
   padding: 130px;
   margin: 130px 0px;
   background: #fff8f3;
+  border-radius: 10px;
 }
 .section-title {
   color: #181818;
